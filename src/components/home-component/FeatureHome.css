@@ -1,0 +1,44 @@
+.FeatureHome {
+  text-align: center;
+  min-height: 250px;
+  margin: 50px 0;
+  width: 100%;
+}
+.title-Feature,
+.title-sub {
+  color: #1a98ff;
+}
+.title-Feature {
+  margin: 20px 0;
+}
+.FeatureHome-content {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+  width: 100%;
+}
+.imageFeature {
+  max-width: 250px;
+}
+
+.title-sub {
+  padding: 10px 0;
+}
+.Feature-des {
+  padding: 10px;
+  width: 70%;
+  margin: auto;
+}
+.Feature-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.imageFooter {
+  width: 100px;
+}
+.feature-footer-des {
+  align-self: center;
+}

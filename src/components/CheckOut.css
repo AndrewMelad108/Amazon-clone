@@ -1,0 +1,15 @@
+.CheckOut {
+  display: grid;
+  grid-template-columns: 70% 20%;
+
+  gap: 15px;
+  text-transform: capitalize;
+  padding: 20px;
+}
+.checkout-image {
+  width: 100%;
+}
+.user-email-basket,
+.basket-title {
+  margin-bottom: 10px;
+}

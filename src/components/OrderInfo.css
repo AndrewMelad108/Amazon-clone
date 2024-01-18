@@ -1,0 +1,14 @@
+.order-info {
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.order-info-section {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 5px 0;
+}
+.order-info-title {
+  padding-right: 40px;
+  color: #c4812a;
+}

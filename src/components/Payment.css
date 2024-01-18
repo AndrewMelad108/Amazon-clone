@@ -1,0 +1,38 @@
+.Payment {
+  text-transform: capitalize;
+}
+.Payment-title {
+  background-color: #eee;
+  padding: 10px 0;
+  text-align: center;
+}
+.payment-section {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  justify-content: start;
+  align-content: baseline;
+  padding: 15px 30px;
+}
+.section-info {
+  align-self: center;
+  text-transform: initial;
+}
+hr {
+  width: 95%;
+  margin: auto;
+}
+.total-price {
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.buyBtn {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border-radius: 5px;
+  border: 0;
+  background-color: #febd69;
+  text-transform: capitalize;
+  margin-top: 5px;
+}

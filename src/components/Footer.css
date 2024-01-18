@@ -1,0 +1,49 @@
+.Footer {
+  min-height: auto;
+}
+.Footer-top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  height: 250px;
+}
+.SignIn-link {
+  margin-top: 25px;
+}
+.title-section-top {
+  margin-bottom: 25px;
+}
+.Links {
+  color: black;
+  font-weight: bold;
+}
+
+.Back-btn {
+  padding: 20px;
+  color: #fff;
+  background-color: #37475a;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  display: block;
+  width: 100%;
+}
+.Footer-content {
+  color: aliceblue;
+  background-color: #232f3e;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 40px;
+}
+.Footer-content div {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: start;
+}
+.Footer-content p {
+  margin: 10px 0;
+  cursor: pointer;
+}

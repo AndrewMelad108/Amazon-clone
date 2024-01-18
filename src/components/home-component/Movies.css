@@ -1,0 +1,24 @@
+.Movies {
+  min-height: 400px;
+  background-color: #eaeaea;
+  width: 100%;
+  margin: 50px 0;
+  padding: 40px;
+  text-align: center;
+}
+.Movies-title {
+  padding: 15px 0;
+  color: #1a98ff;
+}
+
+.Movies-des {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.MoviesImage {
+  display: block;
+  width: 70%;
+  margin: auto;
+}

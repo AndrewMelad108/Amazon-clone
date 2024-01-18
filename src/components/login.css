@@ -1,0 +1,81 @@
+.login {
+  width: 400px;
+  margin: 5px auto;
+}
+.image-logo {
+  width: 100px;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.login-content {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.loginBtn,
+.login-input,
+.login-input-title {
+  display: block;
+  width: 100%;
+}
+
+.login-title {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.login-input-title {
+  margin-bottom: 3px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.login-input {
+  margin-bottom: 20px;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  height: 25px;
+}
+.loginBtn {
+  padding: 10px 0;
+  color: black;
+  background-color: #ffd814;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.condition {
+  font-size: 12px;
+}
+.create-account {
+  text-align: center;
+  width: 100%;
+}
+.title-create {
+  font-size: 14px;
+}
+.lines {
+  display: inline-block;
+  width: 30%;
+}
+.createAccountBtn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 5px;
+  font-weight: 0;
+  cursor: pointer;
+}

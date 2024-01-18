@@ -1,0 +1,40 @@
+.Home {
+  height: auto;
+  min-height: 100vh;
+  background-color: #eee;
+}
+.imageHome {
+  width: 100%;
+  max-height: 100%;
+}
+
+.home-section-product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.home-PrimeDay-section {
+  background-image: url("../images//Prime_PrimeDay_Desktop_cropped2x._CB654657019_.png");
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-bottom: 50px;
+  padding-left: 20%;
+  padding-top: 5%;
+}
+.PrimeDay-title,
+.PrimeDay-des {
+  background-color: #232f3e;
+  color: #1a98ff;
+  width: fit-content;
+}
+.PrimeDay-title {
+  padding: 10px 10px;
+}
+.PrimeDay-des {
+  width: 30%;
+  font-size: 20px;
+  padding: 0 10px;
+  word-spacing: 0.5px;
+}
